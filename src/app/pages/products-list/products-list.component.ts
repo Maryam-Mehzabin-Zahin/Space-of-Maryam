@@ -15,7 +15,7 @@ export class ProductsListComponent {
       name: 'Product 1',
       price: 100,
       description: 'This is a product description',
-      image: 'https://picsum.photos/200/300'
+      image: 'Design1.png'
     },
     {
       id: 2,
