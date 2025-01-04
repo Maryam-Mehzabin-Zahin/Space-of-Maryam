@@ -11,5 +11,5 @@ export class HeaderComponent {
 showBtnClicked() {
 console.log('clicked');
 }
-  title = signal("Maryam's Space");
+  title = signal("Maryam's Creative Space");
 }
