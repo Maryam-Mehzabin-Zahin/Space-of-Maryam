@@ -8,7 +8,7 @@ import { PrimaryButtonComponent } from "../primary-button/primary-button.compone
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-showBtnClicked() {
+showBtnClicked(): void {
 console.log('clicked');
 }
   title = signal("Maryam's Creative Space");
