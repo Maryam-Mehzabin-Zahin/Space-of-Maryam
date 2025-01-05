@@ -12,24 +12,24 @@ export class ProductsListComponent {
   products = signal<Product[]>([
     {
       id: 1,
-      name: 'Product 1',
-      price: 10,
+      name: 'Design 1',
+      price: 20,
       description: 'This is a product description',
       image: 'Design1.png'
     },
     {
       id: 2,
-      name: 'Product 2',
-      price: 20,
+      name: 'Design 2',
+      price: 10,
       description: 'This is a product description',
-      image: 'https://picsum.photos/200/300'
+      image: 'Design2.png'
     },
     {
       id: 3,
-      name: 'Product 3',
-      price: 20,
+      name: 'Design 3',
+      price: 10,
       description: 'This is a product description',
-      image: 'https://picsum.photos/200/300'
+      image: 'Design3.png'
     }
 
   ]);
