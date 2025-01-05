@@ -13,21 +13,21 @@ export class ProductsListComponent {
     {
       id: 1,
       name: 'Product 1',
-      price: 100,
+      price: 10,
       description: 'This is a product description',
       image: 'Design1.png'
     },
     {
       id: 2,
       name: 'Product 2',
-      price: 200,
+      price: 20,
       description: 'This is a product description',
       image: 'https://picsum.photos/200/300'
     },
     {
       id: 3,
       name: 'Product 3',
-      price: 300,
+      price: 20,
       description: 'This is a product description',
       image: 'https://picsum.photos/200/300'
     }
