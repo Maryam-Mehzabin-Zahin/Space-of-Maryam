@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { PrimaryButtonComponent } from "../primary-button/primary-button.component";
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [PrimaryButtonComponent],
+  imports: [PrimaryButtonComponent, RouterLink, RouterOutlet],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
