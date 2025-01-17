@@ -15,7 +15,7 @@ export class ProductsListComponent {
       name: 'Design 1',
       price: 20,
       description: 'This is a product description',
-      image: 'Design1.png'
+      image: 'Design1.jpeg'
     },
     {
       id: 2,
